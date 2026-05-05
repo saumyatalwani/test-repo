@@ -1,0 +1,20 @@
+name: Check Password Secret
+
+on:
+  schedule:
+    - cron: "*/5 * * * *"   # every 5 minutes (closest possible to 10)
+  workflow_dispatch:
+
+jobs:
+  check-secret:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check if PASSWORD secret exists
+        run: |
+          if [ -z "${{ secrets.PASSWORD }}" ]; then
+            echo "❌ PASSWORD secret is missing"
+            exit 1
+          else
+            echo "✅ PASSWORD secret exists"
+          fi
