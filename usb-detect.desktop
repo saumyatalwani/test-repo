@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=USB Reset
+Exec=/home/saumya/Desktop/scripts/usb.sh
+Terminal=true
+Icon=drive-removable-media-usb

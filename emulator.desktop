@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Pixel 9
+Exec=/home/saumya/Desktop/scripts/emulator.sh
+Terminal=true
+Icon=phone

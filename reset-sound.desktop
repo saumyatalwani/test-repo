@@ -1,0 +1,7 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Reset Sound
+Exec=/home/saumya/Desktop/scripts/reset-sound.sh
+Terminal=false
+Icon=preferences-system-sound
